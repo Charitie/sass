@@ -13,7 +13,7 @@ body {
 .main-header {
   width: 100%;
   background: #ff1b68;
-  padding: 16px;
+  padding: 8px 16px;
   cursor: pointer; 
 }
 
