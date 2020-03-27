@@ -16,11 +16,22 @@ body {
 
 .section-title {
   color: #ff1b68;
+  text-align: center;
 }
 
 #product-overview h1 {
   color: white;
   font-family: 'Anton', sans-serif;
+}
+
+.plan {
+  background: #ff1b671e;
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
 }
 
 /* h1 {
@@ -29,7 +40,7 @@ body {
 
 .main-header {
   width: 100%;
-  background: #ccc;
+  background: #ff1b6711;
   padding: 8px 16px; 
 }
 
@@ -39,7 +50,7 @@ body {
 }
 
 .main-header__brand {
-  color: #0e4f1f;
+  color: #ff1b68;
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
@@ -67,7 +78,7 @@ body {
 
 .main-nav__item a {
   text-decoration: none;
-  color: #0e4f1f;
+  color: #ff1b68;
   font-weight: bold;
   padding-bottom: 2px;
 }
