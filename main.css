@@ -29,6 +29,9 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
+  text-decoration: none;
+  height: 22px;
+  display: inline-block;
 }
 
 .main-header__brand:hover,
@@ -85,11 +88,15 @@ body {
 }
 
 #product-overview {
-  background:  url("/images/freedom.jpg");
-  background-size: cover;
-  background-position: left 10% bottom 50%;
-  background-repeat: no-repeat;
-  background-clip: padding-box;
+  background: linear-gradient(to top, rgba(80, 18, 34, 0.6) 10%,
+   transparent),  url("/images/freedom.jpg") left 10% bottom 80%/cover no-repeat border-box, #ff1b68;
+  /* background-size: cover; */
+  /* background-position: left 10% bottom 80%; */
+  /* background-repeat: no-repeat; */
+  /* background-clip: border-box; */
+  /* background-origin: border-box; */
+  /* background-image: linear-gradient(180deg, red 70%, yellow 65%, rgb(0, 0, 0, .5)); */
+  /* background-image: radial-gradient(ellipse farthest-corner at  40% 30%, black 10%, white, red, yellow 40%, green); */
   width: 100%;
   height: 528px;
   padding: 10px;
@@ -223,6 +230,7 @@ body {
   border: 2px solid #424242;
   border-radius: 50%;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .key-feature__description {
