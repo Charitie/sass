@@ -1,2 +1,10 @@
 {
+  "prettier.arrowParens": "avoid",
+  "prettier.enable": false,
+  "prettier.insertPragma": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.packageManager": "yarn",
+  "prettier.singleQuote": true,
+  "prettier.useTabs": true
 }
