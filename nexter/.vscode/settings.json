@@ -1,10 +1,54 @@
+// {
+//   "prettier.arrowParens": "avoid",
+//   "prettier.enable": false,
+//   "prettier.insertPragma": true,
+//   "prettier.jsxBracketSameLine": true,
+//   "prettier.jsxSingleQuote": true,
+//   "prettier.packageManager": "yarn",
+//   "prettier.singleQuote": true,
+//   "prettier.useTabs": true
+// }
+
+
 {
-  "prettier.arrowParens": "avoid",
-  "prettier.enable": false,
-  "prettier.insertPragma": true,
-  "prettier.jsxBracketSameLine": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.packageManager": "yarn",
-  "prettier.singleQuote": true,
-  "prettier.useTabs": true
+	"files.autoSave": "afterDelay",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.fontSize": 16,
+	"workbench.tree.indent": 2,
+	"editor.tabSize": 2,
+	"git.enableSmartCommit": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	// "font-switcher.enableLivePreview": true,
+	// "font-switcher.fontFamily": "FiraFlott, Hack, Space Mono, Monaco, Menlo, Inconsolata, Courier New, monospace, Consolas, DejaVu Sans Mono, Fantasque Sans Mono, Inconsolata, Fira Code",
+	"emmet.excludeLanguages": [
+		{
+			"javascript": "javascriptreact",
+			"markdown": "html"
+		}
+	],
+	"window.zoomLevel": 0,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"prettier.endOfLine": "crlf",
+	"prettier.jsxBracketSameLine": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.packageManager": "yarn",
+	"prettier.useTabs": true,
+	"prettier.htmlWhitespaceSensitivity": "strict",
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// "editor.fontFamily": "Fira Code"
+	// "elixir.formatter": {
+	// 	"mixFormatArgs": "--dry-run",
+	// 	"formatterCwd": "../some/dir/to/run/mix/format/from"
+	// },
+	"[elixir]": {
+		"editor.defaultFormatter": "sammkj.vscode-elixir-formatter"
+	},
+	"workbench.colorTheme": "dark+(elixir)"
 }
