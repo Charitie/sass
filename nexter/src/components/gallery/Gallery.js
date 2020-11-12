@@ -5,9 +5,9 @@ import { galleryData } from "./galleryData";
 const Gallery = () => {
 	return (
 		<div className='gallery'>
-			{galleryData.map((gallery) => {
+			{galleryData.map((gallery, index) => {
 				return (
-					<figure className={`gallery__item gallery__item--${gallery.class}`}>
+					<figure key={index} className={`gallery__item gallery__item--${gallery.class}`}>
 						<img
 							src={gallery.image}
 							alt='Gallery'
