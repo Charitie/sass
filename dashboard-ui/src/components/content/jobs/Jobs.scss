@@ -1,0 +1,51 @@
+.content__job {
+	border-bottom: 1px solid black;
+	padding: 10px 0;
+
+	.fixed_header {
+		width: 900px;
+		table-layout: fixed;
+		// border-collapse: collapse;
+	}
+
+	.fixed_header tbody {
+		display: block;
+		width: 100%;
+		overflow: auto;
+		height: 100px;
+	}
+
+	.fixed_header thead tr {
+		display: block;
+	}
+
+	.fixed_header thead {
+		background: #777;
+		color: #fff;
+	}
+
+	.fixed_header th,
+	.fixed_header td {
+		padding: 5px;
+		text-align: left;
+		width: 200px;
+	}
+
+	tr:nth-child(even) {
+		background: #fff;
+	}
+	tr:nth-child(odd):not(:first-child()) {
+		background: #eee;
+	}
+
+  
+  table {
+    border: 1px solid black;
+  }
+
+ thead tr th:not(:last-child),
+ tbody tr td{
+    border-right: 1px solid black;
+  }
+
+}
