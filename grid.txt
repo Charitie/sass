@@ -1,0 +1,20 @@
+Grid container : element that holds grid items
+grid items: direct children of container
+
+Grid container properties
+- grid-template-columns
+- grid-template-rows
+- grid-gap
+- grid-auto-rows
+- grid-auto-columns
+- grid-template-areas
+- justify-content
+- align-items
+
+
+Grid Item properties
+- grid-columns
+- grid-row
+- grid-areas
+- align-self
+- justify-self
