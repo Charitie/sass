@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 }
@@ -54,4 +55,49 @@
 	flex-grow: 4;
 	flex-basis: 200px;
   flex-shrink: 1;
+=======
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* stretch, center, start, end, baseline*/
+  height: 70vh;
+  flex-wrap: wrap;
+
+  align-content: space-between;
+}
+
+.item {
+  background: #f1425f;
+  padding: 30px;
+  margin: 3px;
+  color: #fff;
+
+  /* flex-grow: 1; */
+}
+
+.i2 {
+  height: 200px;
+  /* flex-grow: 3;  */
+  flex-basis: 100px; /*  grow: width */
+  flex-shrink: 0;
+
+  flex: 0 0 300px; /* grow, shrink, basis */
+}
+
+.i3 {
+  order: 1;
+  flex: 1;
+}
+
+.i4 {
+  align-self: stretch;
+  order: -1; /*  left to right -1->1*/
+>>>>>>> fe65cc0 (flexbox)
 }
